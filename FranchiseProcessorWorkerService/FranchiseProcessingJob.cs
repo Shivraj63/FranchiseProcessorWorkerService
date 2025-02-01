@@ -47,7 +47,8 @@ namespace FranchiseProcessorWorkerService
         new Franchise { Id = 1, Name = "Franchise A" },
         new Franchise { Id = 2, Name = "Franchise B" },
         new Franchise { Id = 3, Name = "Franchise C" },
-        new Franchise { Id = 4, Name = "Franchise D" }
+        new Franchise { Id = 4, Name = "Franchise D" },
+        new Franchise { Id = 4, Name = "Franchise E" }
     };
 
         private async Task ProcessFranchise(Franchise franchise)
